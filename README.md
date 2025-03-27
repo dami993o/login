@@ -8,6 +8,8 @@ Before running the test, ensure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (>= 14.0.0)
 - [Playwright](https://playwright.dev/) (>= 1.18.0)
+- open terminal and run npm init playwright@latest
+   
 
 ## Installation
 
@@ -24,4 +26,4 @@ Before running the test, ensure you have the following installed:
 
 to run this test open the terminal in the project directory.
 
-npx playwright test
+npx playwright test login.spec.js
